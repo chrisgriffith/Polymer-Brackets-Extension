@@ -1,0 +1,12 @@
+{
+	"name": "chrisgriffith.polymerhints",
+	"title": "Polymer Code Hinting",
+	"description": "Code hinting for the Polymer project",
+	"homepage": "",
+	"version": "0.1.0",
+	"author": "Chris Griffith <chris.griffith@gmail.com> (http://aj-software.com)",
+	"license": "ClearBSD",
+	"engines": {
+		"brackets": ">=1.0.0"
+	}
+}
