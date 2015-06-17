@@ -157,7 +157,23 @@
     "gold-cc-expiration-input": { "attributes": ["label", "value"] },
     "gold-email-input":         { "attributes": ["label"] },
     "gold-phone-input":         { "attributes": ["country-code", "label", "phoneNumberPattern "] },
-    "gold-zip-input":           { "attributes": ["label"] }
+    "gold-zip-input":           { "attributes": ["label"] },
+  
+    "iron-a11y-keys":           { "attributes": ["keys", "target"] },
+    "iron-ajax":                { "attributes": ["active-requests", "auto", "body", "content-types", "debounce-duration", "handle-as", "headers", "last-error", "last-request", "last-response", "loading", "method", "params", "sync", "url", "verbose", "with-credentials"] },
+    "iron-autogrow-textarea":   { "attributes": [] },
+    "iron-collapse":            { "attributes": ["horizontal", "opened"] },
+    "iron-doc-viewer":          { "attributes": [] },
+    "iron-icon":                { "attributes": ["icon", "src", "theme"] },
+    "iron-iconset":             { "attributes": ["icon-names", "icons", "name", "size", "src", "width"] },
+    "iron-iconset-svg":         { "attributes": ["name", "size"] },
+    "iron-image":               { "attributes": ["can-load", "fade", "height", "loaded", "loading", "placeholder", "position", "preload", "prevent-load", "requires-preload", "sizing", "src", "width"] },
+    "iron-localstorage":        { "attributes": ["auto-save-disabled", "error-message", "name", "use-raw", "value"] },
+    "iron-media-query":         { "attributes": ["query", "queryMatches"] },
+    "iron-meta":                { "attributes": ["key", "list", "self", "type", "value"] },
+    "iron-pages":               { "attributes": ["activateEvent"] },
+    "iron-selector":            { "attributes": ["attr-for-selected", "selected "] }
+  
   
   
 }
