@@ -114,5 +114,45 @@
     "ul":         { "attributes": [] },
     "var":        { "attributes": [] },
     "video":      { "attributes": ["autoplay", "controls", "height", "loop", "mediagroup", "muted", "poster", "preload", "src", "width"] },
-    "wbr":        { "attributes": [] }
+    "wbr":        { "attributes": [] },
+    
+    "paper-button":             { "attributes": ["raised", "noink", "dialog-dismiss", "dialog-confirm"] },
+    "paper-checkbox":           { "attributes": ["checked", "toggles"] },
+    "paper-dialog":             { "attributes": ["entry-animation", "exit-animation"] },
+    "paper-dialog-impl":        { "attributes": ["modal"] },
+    "paper-dialog-scrollable":  { "attributes": [] },
+    "paper-drawer-panel":       { "attributes": ["defaultSelected", "disableEdgeSwipe", "disableSwipe", "dragging", "drawerToggleAttribute", "drawerWidth", "edgeSwipeSensitivity", "forceNarrow", "hasTransform", "hasWillChange", "narrow", "peeking", "responsiveWidth", "rightDrawer", "selected", "transition"] },
+    "paper-fab":                { "attributes": ["icon", "mini", "src"] },
+    "paper-header-panel":       { "attributes": ["atTop", "mode", "shadow", "tallClass"] },
+    "paper-icon-button":        { "attributes": ["alt", "icon", "src"] },
+    "paper-input":              { "attributes": ["label", "error-message", "char-counter"] },
+    "paper-item":               { "attributes": ["role"] },
+    "paper-item-body":          { "attributes": ["two-line"] },
+    "paper-material":           { "attributes": ["animated", "elevation"] },
+    "paper-menu":               { "attributes": [] },
+    "paper-progress":           { "attributes": ["value", "secondary-progress", "indeterminate", "secondaryRatio"] },
+    "paper-radio-button":       { "attributes": ["checked", "toggles"] },
+    "paper-radio-group":        { "attributes": ["attrForSelected", "keyBindings", "selectedAttribute"] },
+    "paper-ripple":             { "attributes": ["animating", "center", "holdDown", "initialOpcity", "keyBindings", "opacityDecayVelocity", "recenters", "ripples"] },
+    "paper-scroll-header-panel":        { "attributes": ["condensedHeaderHeight", "condenses", "fixed", "headerHeight", "keepCondensedHeader", "noDissolve", "noReveal", "scrollAwayTopbar" ] },
+    "paper-slider":             { "attributes": ["editable", "keyBindings", "snaps" ] },
+    "paper-spinner":            { "attributes": ["active", "alt"] },
+    "paper-tab":                { "attributes": [] },
+    "paper-tabs":               { "attributes": ["alignBottom", "disableDrag", "hideScrollButtons", "noBar", "noSlide", "noink", "scrollable", "selectable", "selected"] },
+    "paper-toast":              { "attributes": ["duration", "text", "visible"] },
+    "paper-toggle-button":      { "attributes": ["checked", "toggles"] },
+    "paper-toolbar":            { "attributes": ["bottomJustify", "justify", "middleJustify "] }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 }
