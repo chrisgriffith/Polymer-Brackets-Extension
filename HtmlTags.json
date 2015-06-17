@@ -141,7 +141,10 @@
     "paper-tabs":               { "attributes": ["alignBottom", "disableDrag", "hideScrollButtons", "noBar", "noSlide", "noink", "scrollable", "selectable", "selected"] },
     "paper-toast":              { "attributes": ["duration", "text", "visible"] },
     "paper-toggle-button":      { "attributes": ["checked", "toggles"] },
-    "paper-toolbar":            { "attributes": ["bottomJustify", "justify", "middleJustify "] }
+    "paper-toolbar":            { "attributes": ["bottomJustify", "justify", "middleJustify "] },
+  
+    "neon-animated-pages":      { "attributes": ["selected", "entry-animation", "exit-animation" ] },
+    "neon-animatable":          { "attributes": [] }
   
   
   
