@@ -135,10 +135,10 @@
     "paper-radio-group":        { "attributes": ["attr-for-selected", "key-bindings", "selected-attribute"] },
     "paper-ripple":             { "attributes": ["animating", "center", "hold-down", "initial-opacity", "key-bindings", "opacitydecay-velocity", "recenters", "ripples"] },
     "paper-scroll-header-panel":        { "attributes": ["condensed-header-height", "condenses", "fixed", "header-height", "keep-condensed-header", "no-dissolve", "no-reveal", "scroll-away-topbar" ] },
-    "paper-slider":             { "attributes": ["editable", "keyBindings", "snaps" ] },
+    "paper-slider":             { "attributes": ["editable", "key-bindings", "snaps" ] },
     "paper-spinner":            { "attributes": ["active", "alt"] },
     "paper-tab":                { "attributes": [] },
-    "paper-tabs":               { "attributes": ["align-bottom", "disable-drag", "hide-scroll-buttons", "no-bar", "noSlide", "noink", "scrollable", "selectable", "selected"] },
+    "paper-tabs":               { "attributes": ["align-bottom", "disable-drag", "hide-scroll-buttons", "no-bar", "no-slide", "noink", "scrollable", "selectable", "selected"] },
     "paper-toast":              { "attributes": ["duration", "text", "visible"] },
     "paper-toggle-button":      { "attributes": ["checked", "toggles"] },
     "paper-toolbar":            { "attributes": ["bottom-justify", "justify", "middle-justify "] },
@@ -152,9 +152,12 @@
     "platinum-sw-import-script":{ "attributes": ["href"] },
     "platinum-sw-fetch":        { "attributes": ["handler", "path", "origin"] },
   
-  
- 
-  
+    "gold-cc-cvc-input":        { "attributes": ["card-type", "label"] },
+    "gold-cc-input":            { "attributes": ["card-type", "label"] },
+    "gold-cc-expiration-input": { "attributes": ["label", "value"] },
+    "gold-email-input":         { "attributes": ["label"] },
+    "gold-phone-input":         { "attributes": ["country-code", "label", "phoneNumberPattern "] },
+    "gold-zip-input":           { "attributes": ["label"] }
   
   
 }
