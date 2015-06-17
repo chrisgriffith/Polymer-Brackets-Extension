@@ -121,7 +121,7 @@
     "paper-dialog":             { "attributes": ["entry-animation", "exit-animation"] },
     "paper-dialog-impl":        { "attributes": ["modal"] },
     "paper-dialog-scrollable":  { "attributes": [] },
-    "paper-drawer-panel":       { "attributes": ["defaultSelected", "disableEdgeSwipe", "disableSwipe", "dragging", "drawerToggleAttribute", "drawerWidth", "edgeSwipeSensitivity", "forceNarrow", "hasTransform", "hasWillChange", "narrow", "peeking", "responsiveWidth", "rightDrawer", "selected", "transition"] },
+    "paper-drawer-panel":       { "attributes": ["default-selected", "disable-edge-swipe", "disable-swipe", "dragging", "drawer-toggle-attribute", "drawer-width", "edge-swipe-sensitivity", "force-narrow", "has-transform", "has-will-change", "narrow", "peeking", "responsive-width", "right-drawer", "selected", "transition"] },
     "paper-fab":                { "attributes": ["icon", "mini", "src"] },
     "paper-header-panel":       { "attributes": ["atTop", "mode", "shadow", "tallClass"] },
     "paper-icon-button":        { "attributes": ["alt", "icon", "src"] },
@@ -132,29 +132,28 @@
     "paper-menu":               { "attributes": [] },
     "paper-progress":           { "attributes": ["value", "secondary-progress", "indeterminate", "secondaryRatio"] },
     "paper-radio-button":       { "attributes": ["checked", "toggles"] },
-    "paper-radio-group":        { "attributes": ["attrForSelected", "keyBindings", "selectedAttribute"] },
-    "paper-ripple":             { "attributes": ["animating", "center", "holdDown", "initialOpcity", "keyBindings", "opacityDecayVelocity", "recenters", "ripples"] },
-    "paper-scroll-header-panel":        { "attributes": ["condensedHeaderHeight", "condenses", "fixed", "headerHeight", "keepCondensedHeader", "noDissolve", "noReveal", "scrollAwayTopbar" ] },
+    "paper-radio-group":        { "attributes": ["attr-for-selected", "key-bindings", "selected-attribute"] },
+    "paper-ripple":             { "attributes": ["animating", "center", "hold-down", "initial-opacity", "key-bindings", "opacitydecay-velocity", "recenters", "ripples"] },
+    "paper-scroll-header-panel":        { "attributes": ["condensed-header-height", "condenses", "fixed", "header-height", "keep-condensed-header", "no-dissolve", "no-reveal", "scroll-away-topbar" ] },
     "paper-slider":             { "attributes": ["editable", "keyBindings", "snaps" ] },
     "paper-spinner":            { "attributes": ["active", "alt"] },
     "paper-tab":                { "attributes": [] },
-    "paper-tabs":               { "attributes": ["alignBottom", "disableDrag", "hideScrollButtons", "noBar", "noSlide", "noink", "scrollable", "selectable", "selected"] },
+    "paper-tabs":               { "attributes": ["align-bottom", "disable-drag", "hide-scroll-buttons", "no-bar", "noSlide", "noink", "scrollable", "selectable", "selected"] },
     "paper-toast":              { "attributes": ["duration", "text", "visible"] },
     "paper-toggle-button":      { "attributes": ["checked", "toggles"] },
-    "paper-toolbar":            { "attributes": ["bottomJustify", "justify", "middleJustify "] },
+    "paper-toolbar":            { "attributes": ["bottom-justify", "justify", "middle-justify "] },
   
     "neon-animated-pages":      { "attributes": ["selected", "entry-animation", "exit-animation" ] },
-    "neon-animatable":          { "attributes": [] }
+    "neon-animatable":          { "attributes": [] },
+  
+    "platinum-push-messaging":  { "attributes": ["title", "message-url", "message", "icon-url", "click-url"] },
+    "platinum-sw-register":     { "attributes": ["auto-register", "state", "clients-claim", "skip-waiting", "on-service-worker-error", "on-service-worker-updated", "on-service-worker-installed"] },
+    "platinum-sw-cache":        { "attributes": ["default-cache-strategy", "precache", "precache-file"] },
+    "platinum-sw-import-script":{ "attributes": ["href"] },
+    "platinum-sw-fetch":        { "attributes": ["handler", "path", "origin"] },
   
   
-  
-  
-  
-  
-  
-  
-  
-  
+ 
   
   
   
